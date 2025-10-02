@@ -9,3 +9,6 @@ list.append("snake");
 list.append("turtle");
 
 console.log(list.toString());
+list.removeAt(1);
+list.insertAt("horse", 3);
+console.log(list.toString());
