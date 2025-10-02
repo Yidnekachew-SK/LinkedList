@@ -150,3 +150,5 @@ const LinkedList = function () {
 	
 	return {append, prepend, size, head, tail, at, pop, contains, find, toString}
 };
+
+export { LinkedList };
